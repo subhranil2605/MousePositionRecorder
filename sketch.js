@@ -1,7 +1,9 @@
 let points = [];
+let h;
 
 function setup() {
-  createCanvas(windowWidth * 0.68, windowHeight * 0.9);
+  h = windowHeight * 0.9;
+  createCanvas(windowWidth * 0.68, h);
 }
 
 function draw() {

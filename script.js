@@ -2,7 +2,7 @@ let csv;
 
 // 2D array into CSV
 function arrayToCSV(data) {
-  return data.map((row) => [row.x, row.y].join(",")).join("\r\n");
+  return data.map((row) => [row.x, h - row.y].join(",")).join("\r\n");
 }
 
 function downloadBlob(content, filename, contentType) {
